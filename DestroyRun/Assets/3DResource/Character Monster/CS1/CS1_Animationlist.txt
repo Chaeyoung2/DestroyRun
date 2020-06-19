@@ -1,0 +1,3 @@
+﻿CS1 Aniamtion
+
+Run  0-10  = ท่าวิ่ง

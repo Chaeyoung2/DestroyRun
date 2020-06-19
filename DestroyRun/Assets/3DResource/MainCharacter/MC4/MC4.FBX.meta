@@ -1,0 +1,1423 @@
+fileFormatVersion: 2
+guid: 09b18bcdcd1241840b1cd334b64d4972
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: MC4 AntennaeR
+    100002: MC4 AntennaeR2
+    100004: MC4 Spine
+    100006: MC4 Pelvis
+    100008: //RootNode
+    100010: MC4 1
+    100012: MC4 R Toe0
+    100014: MC4 R Foot
+    100016: MC4 WingL
+    100018: MC4 R Calf
+    100020: MC4 R Thigh
+    100022: MC4 WingR2
+    100024: MC4 WingL2
+    100026: MC4 AntennaeL3
+    100028: MC4 AntennaeR3
+    100030: MC4 AntennaeL
+    100032: MC4 WingR
+    100034: MC4 Head
+    100036: MC4 R Hand
+    100038: MC4 R Clavicle
+    100040: MC4 L Hand
+    100042: MC4 R Forearm
+    100044: MC4 R UpperArm
+    100046: MC4 L Forearm
+    100048: MC4 L UpperArm
+    100050: MC4 L Clavicle
+    100052: MC4 Neck
+    100054: MC4 L Foot
+    100056: MC4 L Calf
+    100058: MC4 L Thigh
+    100060: MC4
+    100062: MC4 AntennaeL2
+    100064: MC4 L Toe0
+    400000: MC4 AntennaeR
+    400002: MC4 AntennaeR2
+    400004: MC4 Spine
+    400006: MC4 Pelvis
+    400008: //RootNode
+    400010: MC4 1
+    400012: MC4 R Toe0
+    400014: MC4 R Foot
+    400016: MC4 WingL
+    400018: MC4 R Calf
+    400020: MC4 R Thigh
+    400022: MC4 WingR2
+    400024: MC4 WingL2
+    400026: MC4 AntennaeL3
+    400028: MC4 AntennaeR3
+    400030: MC4 AntennaeL
+    400032: MC4 WingR
+    400034: MC4 Head
+    400036: MC4 R Hand
+    400038: MC4 R Clavicle
+    400040: MC4 L Hand
+    400042: MC4 R Forearm
+    400044: MC4 R UpperArm
+    400046: MC4 L Forearm
+    400048: MC4 L UpperArm
+    400050: MC4 L Clavicle
+    400052: MC4 Neck
+    400054: MC4 L Foot
+    400056: MC4 L Calf
+    400058: MC4 L Thigh
+    400060: MC4
+    400062: MC4 AntennaeL2
+    400064: MC4 L Toe0
+    4300000: MC4
+    7400000: Run
+    7400002: Idle
+    7400004: Jump_Open
+    7400006: Jump_Loop
+    7400008: Jump_End
+    7400010: Slam
+    7400012: Dash
+    7400014: Knock_Down
+    7400016: Knock_Down_Loop
+    7400018: Knock_Down_Up
+    7400020: Ulti_Open
+    7400022: Ulti_Loop
+    7400024: Ulti_End
+    11100000: //RootNode
+    13700000: MC4 1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Run
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 16
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: MC4
+        weight: 1
+      - path: MC4/MC4 Pelvis
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 L Thigh
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 L Thigh/MC4 L Calf
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 L Thigh/MC4 L Calf/MC4 L Foot
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 L Thigh/MC4 L Calf/MC4 L Foot/MC4 L Toe0
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeL
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeL/MC4 AntennaeL2
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeL/MC4 AntennaeL2/MC4
+          AntennaeL3
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeR
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeR/MC4 AntennaeR2
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeR/MC4 AntennaeR2/MC4
+          AntennaeR3
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 L Clavicle
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 L Clavicle/MC4 L UpperArm
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 L Clavicle/MC4 L UpperArm/MC4
+          L Forearm
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 L Clavicle/MC4 L UpperArm/MC4
+          L Forearm/MC4 L Hand
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 R Clavicle
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 R Clavicle/MC4 R UpperArm
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 R Clavicle/MC4 R UpperArm/MC4
+          R Forearm
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 R Clavicle/MC4 R UpperArm/MC4
+          R Forearm/MC4 R Hand
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 R Thigh
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 R Thigh/MC4 R Calf
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 R Thigh/MC4 R Calf/MC4 R Foot
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 R Thigh/MC4 R Calf/MC4 R Foot/MC4 R Toe0
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 WingL
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 WingL/MC4 WingL2
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 WingR
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 WingR/MC4 WingR2
+        weight: 1
+      - path: MC4 1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 30
+      lastFrame: 70
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: MC4
+        weight: 1
+      - path: MC4/MC4 Pelvis
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 L Thigh
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 L Thigh/MC4 L Calf
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 L Thigh/MC4 L Calf/MC4 L Foot
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 L Thigh/MC4 L Calf/MC4 L Foot/MC4 L Toe0
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeL
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeL/MC4 AntennaeL2
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeL/MC4 AntennaeL2/MC4
+          AntennaeL3
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeR
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeR/MC4 AntennaeR2
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeR/MC4 AntennaeR2/MC4
+          AntennaeR3
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 L Clavicle
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 L Clavicle/MC4 L UpperArm
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 L Clavicle/MC4 L UpperArm/MC4
+          L Forearm
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 L Clavicle/MC4 L UpperArm/MC4
+          L Forearm/MC4 L Hand
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 R Clavicle
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 R Clavicle/MC4 R UpperArm
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 R Clavicle/MC4 R UpperArm/MC4
+          R Forearm
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 R Clavicle/MC4 R UpperArm/MC4
+          R Forearm/MC4 R Hand
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 R Thigh
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 R Thigh/MC4 R Calf
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 R Thigh/MC4 R Calf/MC4 R Foot
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 R Thigh/MC4 R Calf/MC4 R Foot/MC4 R Toe0
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 WingL
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 WingL/MC4 WingL2
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 WingR
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 WingR/MC4 WingR2
+        weight: 1
+      - path: MC4 1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Jump_Open
+      takeName: Take 001
+      firstFrame: 90
+      lastFrame: 130
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: MC4
+        weight: 1
+      - path: MC4/MC4 Pelvis
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 L Thigh
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 L Thigh/MC4 L Calf
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 L Thigh/MC4 L Calf/MC4 L Foot
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 L Thigh/MC4 L Calf/MC4 L Foot/MC4 L Toe0
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeL
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeL/MC4 AntennaeL2
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeL/MC4 AntennaeL2/MC4
+          AntennaeL3
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeR
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeR/MC4 AntennaeR2
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeR/MC4 AntennaeR2/MC4
+          AntennaeR3
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 L Clavicle
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 L Clavicle/MC4 L UpperArm
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 L Clavicle/MC4 L UpperArm/MC4
+          L Forearm
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 L Clavicle/MC4 L UpperArm/MC4
+          L Forearm/MC4 L Hand
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 R Clavicle
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 R Clavicle/MC4 R UpperArm
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 R Clavicle/MC4 R UpperArm/MC4
+          R Forearm
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 R Clavicle/MC4 R UpperArm/MC4
+          R Forearm/MC4 R Hand
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 R Thigh
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 R Thigh/MC4 R Calf
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 R Thigh/MC4 R Calf/MC4 R Foot
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 R Thigh/MC4 R Calf/MC4 R Foot/MC4 R Toe0
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 WingL
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 WingL/MC4 WingL2
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 WingR
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 WingR/MC4 WingR2
+        weight: 1
+      - path: MC4 1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Jump_Loop
+      takeName: Take 001
+      firstFrame: 140
+      lastFrame: 160
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: MC4
+        weight: 1
+      - path: MC4/MC4 Pelvis
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 L Thigh
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 L Thigh/MC4 L Calf
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 L Thigh/MC4 L Calf/MC4 L Foot
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 L Thigh/MC4 L Calf/MC4 L Foot/MC4 L Toe0
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeL
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeL/MC4 AntennaeL2
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeL/MC4 AntennaeL2/MC4
+          AntennaeL3
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeR
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeR/MC4 AntennaeR2
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeR/MC4 AntennaeR2/MC4
+          AntennaeR3
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 L Clavicle
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 L Clavicle/MC4 L UpperArm
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 L Clavicle/MC4 L UpperArm/MC4
+          L Forearm
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 L Clavicle/MC4 L UpperArm/MC4
+          L Forearm/MC4 L Hand
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 R Clavicle
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 R Clavicle/MC4 R UpperArm
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 R Clavicle/MC4 R UpperArm/MC4
+          R Forearm
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 R Clavicle/MC4 R UpperArm/MC4
+          R Forearm/MC4 R Hand
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 R Thigh
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 R Thigh/MC4 R Calf
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 R Thigh/MC4 R Calf/MC4 R Foot
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 R Thigh/MC4 R Calf/MC4 R Foot/MC4 R Toe0
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 WingL
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 WingL/MC4 WingL2
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 WingR
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 WingR/MC4 WingR2
+        weight: 1
+      - path: MC4 1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Jump_End
+      takeName: Take 001
+      firstFrame: 170
+      lastFrame: 180
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: MC4
+        weight: 1
+      - path: MC4/MC4 Pelvis
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 L Thigh
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 L Thigh/MC4 L Calf
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 L Thigh/MC4 L Calf/MC4 L Foot
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 L Thigh/MC4 L Calf/MC4 L Foot/MC4 L Toe0
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeL
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeL/MC4 AntennaeL2
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeL/MC4 AntennaeL2/MC4
+          AntennaeL3
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeR
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeR/MC4 AntennaeR2
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeR/MC4 AntennaeR2/MC4
+          AntennaeR3
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 L Clavicle
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 L Clavicle/MC4 L UpperArm
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 L Clavicle/MC4 L UpperArm/MC4
+          L Forearm
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 L Clavicle/MC4 L UpperArm/MC4
+          L Forearm/MC4 L Hand
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 R Clavicle
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 R Clavicle/MC4 R UpperArm
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 R Clavicle/MC4 R UpperArm/MC4
+          R Forearm
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 R Clavicle/MC4 R UpperArm/MC4
+          R Forearm/MC4 R Hand
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 R Thigh
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 R Thigh/MC4 R Calf
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 R Thigh/MC4 R Calf/MC4 R Foot
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 R Thigh/MC4 R Calf/MC4 R Foot/MC4 R Toe0
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 WingL
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 WingL/MC4 WingL2
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 WingR
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 WingR/MC4 WingR2
+        weight: 1
+      - path: MC4 1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Slam
+      takeName: Take 001
+      firstFrame: 190
+      lastFrame: 215
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: MC4
+        weight: 1
+      - path: MC4/MC4 Pelvis
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 L Thigh
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 L Thigh/MC4 L Calf
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 L Thigh/MC4 L Calf/MC4 L Foot
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 L Thigh/MC4 L Calf/MC4 L Foot/MC4 L Toe0
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeL
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeL/MC4 AntennaeL2
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeL/MC4 AntennaeL2/MC4
+          AntennaeL3
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeR
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeR/MC4 AntennaeR2
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeR/MC4 AntennaeR2/MC4
+          AntennaeR3
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 L Clavicle
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 L Clavicle/MC4 L UpperArm
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 L Clavicle/MC4 L UpperArm/MC4
+          L Forearm
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 L Clavicle/MC4 L UpperArm/MC4
+          L Forearm/MC4 L Hand
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 R Clavicle
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 R Clavicle/MC4 R UpperArm
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 R Clavicle/MC4 R UpperArm/MC4
+          R Forearm
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 R Clavicle/MC4 R UpperArm/MC4
+          R Forearm/MC4 R Hand
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 R Thigh
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 R Thigh/MC4 R Calf
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 R Thigh/MC4 R Calf/MC4 R Foot
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 R Thigh/MC4 R Calf/MC4 R Foot/MC4 R Toe0
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 WingL
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 WingL/MC4 WingL2
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 WingR
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 WingR/MC4 WingR2
+        weight: 1
+      - path: MC4 1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Dash
+      takeName: Take 001
+      firstFrame: 230
+      lastFrame: 250
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: MC4
+        weight: 1
+      - path: MC4/MC4 Pelvis
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 L Thigh
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 L Thigh/MC4 L Calf
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 L Thigh/MC4 L Calf/MC4 L Foot
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 L Thigh/MC4 L Calf/MC4 L Foot/MC4 L Toe0
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeL
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeL/MC4 AntennaeL2
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeL/MC4 AntennaeL2/MC4
+          AntennaeL3
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeR
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeR/MC4 AntennaeR2
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeR/MC4 AntennaeR2/MC4
+          AntennaeR3
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 L Clavicle
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 L Clavicle/MC4 L UpperArm
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 L Clavicle/MC4 L UpperArm/MC4
+          L Forearm
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 L Clavicle/MC4 L UpperArm/MC4
+          L Forearm/MC4 L Hand
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 R Clavicle
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 R Clavicle/MC4 R UpperArm
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 R Clavicle/MC4 R UpperArm/MC4
+          R Forearm
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 R Clavicle/MC4 R UpperArm/MC4
+          R Forearm/MC4 R Hand
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 R Thigh
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 R Thigh/MC4 R Calf
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 R Thigh/MC4 R Calf/MC4 R Foot
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 R Thigh/MC4 R Calf/MC4 R Foot/MC4 R Toe0
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 WingL
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 WingL/MC4 WingL2
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 WingR
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 WingR/MC4 WingR2
+        weight: 1
+      - path: MC4 1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Knock_Down
+      takeName: Take 001
+      firstFrame: 260
+      lastFrame: 290
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: MC4
+        weight: 1
+      - path: MC4/MC4 Pelvis
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 L Thigh
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 L Thigh/MC4 L Calf
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 L Thigh/MC4 L Calf/MC4 L Foot
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 L Thigh/MC4 L Calf/MC4 L Foot/MC4 L Toe0
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeL
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeL/MC4 AntennaeL2
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeL/MC4 AntennaeL2/MC4
+          AntennaeL3
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeR
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeR/MC4 AntennaeR2
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeR/MC4 AntennaeR2/MC4
+          AntennaeR3
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 L Clavicle
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 L Clavicle/MC4 L UpperArm
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 L Clavicle/MC4 L UpperArm/MC4
+          L Forearm
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 L Clavicle/MC4 L UpperArm/MC4
+          L Forearm/MC4 L Hand
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 R Clavicle
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 R Clavicle/MC4 R UpperArm
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 R Clavicle/MC4 R UpperArm/MC4
+          R Forearm
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 R Clavicle/MC4 R UpperArm/MC4
+          R Forearm/MC4 R Hand
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 R Thigh
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 R Thigh/MC4 R Calf
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 R Thigh/MC4 R Calf/MC4 R Foot
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 R Thigh/MC4 R Calf/MC4 R Foot/MC4 R Toe0
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 WingL
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 WingL/MC4 WingL2
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 WingR
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 WingR/MC4 WingR2
+        weight: 1
+      - path: MC4 1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Knock_Down_Loop
+      takeName: Take 001
+      firstFrame: 300
+      lastFrame: 320
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: MC4
+        weight: 1
+      - path: MC4/MC4 Pelvis
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 L Thigh
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 L Thigh/MC4 L Calf
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 L Thigh/MC4 L Calf/MC4 L Foot
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 L Thigh/MC4 L Calf/MC4 L Foot/MC4 L Toe0
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeL
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeL/MC4 AntennaeL2
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeL/MC4 AntennaeL2/MC4
+          AntennaeL3
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeR
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeR/MC4 AntennaeR2
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeR/MC4 AntennaeR2/MC4
+          AntennaeR3
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 L Clavicle
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 L Clavicle/MC4 L UpperArm
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 L Clavicle/MC4 L UpperArm/MC4
+          L Forearm
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 L Clavicle/MC4 L UpperArm/MC4
+          L Forearm/MC4 L Hand
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 R Clavicle
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 R Clavicle/MC4 R UpperArm
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 R Clavicle/MC4 R UpperArm/MC4
+          R Forearm
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 R Clavicle/MC4 R UpperArm/MC4
+          R Forearm/MC4 R Hand
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 R Thigh
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 R Thigh/MC4 R Calf
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 R Thigh/MC4 R Calf/MC4 R Foot
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 R Thigh/MC4 R Calf/MC4 R Foot/MC4 R Toe0
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 WingL
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 WingL/MC4 WingL2
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 WingR
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 WingR/MC4 WingR2
+        weight: 1
+      - path: MC4 1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Knock_Down_Up
+      takeName: Take 001
+      firstFrame: 330
+      lastFrame: 350
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: MC4
+        weight: 1
+      - path: MC4/MC4 Pelvis
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 L Thigh
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 L Thigh/MC4 L Calf
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 L Thigh/MC4 L Calf/MC4 L Foot
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 L Thigh/MC4 L Calf/MC4 L Foot/MC4 L Toe0
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeL
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeL/MC4 AntennaeL2
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeL/MC4 AntennaeL2/MC4
+          AntennaeL3
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeR
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeR/MC4 AntennaeR2
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeR/MC4 AntennaeR2/MC4
+          AntennaeR3
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 L Clavicle
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 L Clavicle/MC4 L UpperArm
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 L Clavicle/MC4 L UpperArm/MC4
+          L Forearm
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 L Clavicle/MC4 L UpperArm/MC4
+          L Forearm/MC4 L Hand
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 R Clavicle
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 R Clavicle/MC4 R UpperArm
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 R Clavicle/MC4 R UpperArm/MC4
+          R Forearm
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 R Clavicle/MC4 R UpperArm/MC4
+          R Forearm/MC4 R Hand
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 R Thigh
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 R Thigh/MC4 R Calf
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 R Thigh/MC4 R Calf/MC4 R Foot
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 R Thigh/MC4 R Calf/MC4 R Foot/MC4 R Toe0
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 WingL
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 WingL/MC4 WingL2
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 WingR
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 WingR/MC4 WingR2
+        weight: 1
+      - path: MC4 1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Ulti_Open
+      takeName: Take 001
+      firstFrame: 360
+      lastFrame: 380
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: MC4
+        weight: 1
+      - path: MC4/MC4 Pelvis
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 L Thigh
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 L Thigh/MC4 L Calf
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 L Thigh/MC4 L Calf/MC4 L Foot
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 L Thigh/MC4 L Calf/MC4 L Foot/MC4 L Toe0
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeL
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeL/MC4 AntennaeL2
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeL/MC4 AntennaeL2/MC4
+          AntennaeL3
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeR
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeR/MC4 AntennaeR2
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeR/MC4 AntennaeR2/MC4
+          AntennaeR3
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 L Clavicle
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 L Clavicle/MC4 L UpperArm
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 L Clavicle/MC4 L UpperArm/MC4
+          L Forearm
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 L Clavicle/MC4 L UpperArm/MC4
+          L Forearm/MC4 L Hand
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 R Clavicle
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 R Clavicle/MC4 R UpperArm
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 R Clavicle/MC4 R UpperArm/MC4
+          R Forearm
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 R Clavicle/MC4 R UpperArm/MC4
+          R Forearm/MC4 R Hand
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 R Thigh
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 R Thigh/MC4 R Calf
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 R Thigh/MC4 R Calf/MC4 R Foot
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 R Thigh/MC4 R Calf/MC4 R Foot/MC4 R Toe0
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 WingL
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 WingL/MC4 WingL2
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 WingR
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 WingR/MC4 WingR2
+        weight: 1
+      - path: MC4 1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Ulti_Loop
+      takeName: Take 001
+      firstFrame: 390
+      lastFrame: 410
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: MC4
+        weight: 1
+      - path: MC4/MC4 Pelvis
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 L Thigh
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 L Thigh/MC4 L Calf
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 L Thigh/MC4 L Calf/MC4 L Foot
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 L Thigh/MC4 L Calf/MC4 L Foot/MC4 L Toe0
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeL
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeL/MC4 AntennaeL2
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeL/MC4 AntennaeL2/MC4
+          AntennaeL3
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeR
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeR/MC4 AntennaeR2
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeR/MC4 AntennaeR2/MC4
+          AntennaeR3
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 L Clavicle
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 L Clavicle/MC4 L UpperArm
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 L Clavicle/MC4 L UpperArm/MC4
+          L Forearm
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 L Clavicle/MC4 L UpperArm/MC4
+          L Forearm/MC4 L Hand
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 R Clavicle
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 R Clavicle/MC4 R UpperArm
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 R Clavicle/MC4 R UpperArm/MC4
+          R Forearm
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 R Clavicle/MC4 R UpperArm/MC4
+          R Forearm/MC4 R Hand
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 R Thigh
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 R Thigh/MC4 R Calf
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 R Thigh/MC4 R Calf/MC4 R Foot
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 R Thigh/MC4 R Calf/MC4 R Foot/MC4 R Toe0
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 WingL
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 WingL/MC4 WingL2
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 WingR
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 WingR/MC4 WingR2
+        weight: 1
+      - path: MC4 1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Ulti_End
+      takeName: Take 001
+      firstFrame: 420
+      lastFrame: 440
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: MC4
+        weight: 1
+      - path: MC4/MC4 Pelvis
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 L Thigh
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 L Thigh/MC4 L Calf
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 L Thigh/MC4 L Calf/MC4 L Foot
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 L Thigh/MC4 L Calf/MC4 L Foot/MC4 L Toe0
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeL
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeL/MC4 AntennaeL2
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeL/MC4 AntennaeL2/MC4
+          AntennaeL3
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeR
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeR/MC4 AntennaeR2
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 Head/MC4 AntennaeR/MC4 AntennaeR2/MC4
+          AntennaeR3
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 L Clavicle
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 L Clavicle/MC4 L UpperArm
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 L Clavicle/MC4 L UpperArm/MC4
+          L Forearm
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 L Clavicle/MC4 L UpperArm/MC4
+          L Forearm/MC4 L Hand
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 R Clavicle
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 R Clavicle/MC4 R UpperArm
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 R Clavicle/MC4 R UpperArm/MC4
+          R Forearm
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 Neck/MC4 R Clavicle/MC4 R UpperArm/MC4
+          R Forearm/MC4 R Hand
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 R Thigh
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 R Thigh/MC4 R Calf
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 R Thigh/MC4 R Calf/MC4 R Foot
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 R Thigh/MC4 R Calf/MC4 R Foot/MC4 R Toe0
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 WingL
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 WingL/MC4 WingL2
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 WingR
+        weight: 1
+      - path: MC4/MC4 Pelvis/MC4 Spine/MC4 WingR/MC4 WingR2
+        weight: 1
+      - path: MC4 1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .100000001
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

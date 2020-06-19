@@ -1,0 +1,388 @@
+fileFormatVersion: 2
+guid: eb379de5212305c4ebddcbc62337009d
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: C18_ Neck
+    100002: C18_ R Toe0
+    100004: C18_ R Foot
+    100006: C18_ R Calf
+    100008: C18_ R Thigh
+    100010: //RootNode
+    100012: C18_ Head
+    100014: C18_ R Forearm
+    100016: C18_ R UpperArm
+    100018: C18_ Pelvis
+    100020: C18_
+    100022: C18
+    100024: Particle View 001
+    100026: C18_Bone_Sholder_R
+    100028: C18_Bone_Hand_R6
+    100030: C18_Bone_Hand_R5
+    100032: C18_Bone_Hand_R4
+    100034: C18_Bone_Hand_R3
+    100036: C18_Bone_Hand_R2
+    100038: C18_Bone_Hand_R1
+    100040: C18_Bone_Sholder_L
+    100042: C18_Bone_Hand_L3
+    100044: C18_Bone_Hand_L2
+    100046: C18_Bone_Hand_L1
+    100048: C18_Bone_Hand_L6
+    100050: C18_Bone_Hand_L5
+    100052: C18_Bone_Hand_L4
+    100054: C18_ R Clavicle
+    100056: C18_ R Hand
+    100058: C18_ L Hand
+    100060: C18_ L Forearm
+    100062: C18_ L UpperArm
+    100064: C18_ L Clavicle
+    100066: C18_ L Toe0
+    100068: C18_ L Foot
+    100070: C18_ L Calf
+    100072: C18_ L Thigh
+    100074: C18_ Spine
+    400000: C18_ Neck
+    400002: C18_ R Toe0
+    400004: C18_ R Foot
+    400006: C18_ R Calf
+    400008: C18_ R Thigh
+    400010: //RootNode
+    400012: C18_ Head
+    400014: C18_ R Forearm
+    400016: C18_ R UpperArm
+    400018: C18_ Pelvis
+    400020: C18_
+    400022: C18
+    400024: Particle View 001
+    400026: C18_Bone_Sholder_R
+    400028: C18_Bone_Hand_R6
+    400030: C18_Bone_Hand_R5
+    400032: C18_Bone_Hand_R4
+    400034: C18_Bone_Hand_R3
+    400036: C18_Bone_Hand_R2
+    400038: C18_Bone_Hand_R1
+    400040: C18_Bone_Sholder_L
+    400042: C18_Bone_Hand_L3
+    400044: C18_Bone_Hand_L2
+    400046: C18_Bone_Hand_L1
+    400048: C18_Bone_Hand_L6
+    400050: C18_Bone_Hand_L5
+    400052: C18_Bone_Hand_L4
+    400054: C18_ R Clavicle
+    400056: C18_ R Hand
+    400058: C18_ L Hand
+    400060: C18_ L Forearm
+    400062: C18_ L UpperArm
+    400064: C18_ L Clavicle
+    400066: C18_ L Toe0
+    400068: C18_ L Foot
+    400070: C18_ L Calf
+    400072: C18_ L Thigh
+    400074: C18_ Spine
+    4300000: C18
+    7400000: Idle
+    7400002: Run
+    11100000: //RootNode
+    13700000: C18
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: C18
+        weight: 1
+      - path: C18_
+        weight: 1
+      - path: C18_/C18_ Pelvis
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ L Thigh
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ L Thigh/C18_ L Calf
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ L Thigh/C18_ L Calf/C18_ L Foot
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ L Thigh/C18_ L Calf/C18_ L Foot/C18_
+          L Toe0
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ Neck
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ Neck/C18_ Head
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ Neck/C18_ L Clavicle
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ Neck/C18_ L Clavicle/C18_ L UpperArm
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ Neck/C18_ L Clavicle/C18_ L UpperArm/C18_
+          L Forearm
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ Neck/C18_ L Clavicle/C18_ L UpperArm/C18_
+          L Forearm/C18_ L Hand
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ Neck/C18_ L Clavicle/C18_ L UpperArm/C18_
+          L Forearm/C18_ L Hand/C18_Bone_Hand_L1
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ Neck/C18_ L Clavicle/C18_ L UpperArm/C18_
+          L Forearm/C18_ L Hand/C18_Bone_Hand_L1/C18_Bone_Hand_L2
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ Neck/C18_ L Clavicle/C18_ L UpperArm/C18_
+          L Forearm/C18_ L Hand/C18_Bone_Hand_L1/C18_Bone_Hand_L2/C18_Bone_Hand_L3
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ Neck/C18_ L Clavicle/C18_ L UpperArm/C18_
+          L Forearm/C18_ L Hand/C18_Bone_Hand_L4
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ Neck/C18_ L Clavicle/C18_ L UpperArm/C18_
+          L Forearm/C18_ L Hand/C18_Bone_Hand_L4/C18_Bone_Hand_L5
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ Neck/C18_ L Clavicle/C18_ L UpperArm/C18_
+          L Forearm/C18_ L Hand/C18_Bone_Hand_L4/C18_Bone_Hand_L5/C18_Bone_Hand_L6
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ Neck/C18_ L Clavicle/C18_Bone_Sholder_L
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ Neck/C18_ R Clavicle
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ Neck/C18_ R Clavicle/C18_ R UpperArm
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ Neck/C18_ R Clavicle/C18_ R UpperArm/C18_
+          R Forearm
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ Neck/C18_ R Clavicle/C18_ R UpperArm/C18_
+          R Forearm/C18_ R Hand
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ Neck/C18_ R Clavicle/C18_ R UpperArm/C18_
+          R Forearm/C18_ R Hand/C18_Bone_Hand_R1
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ Neck/C18_ R Clavicle/C18_ R UpperArm/C18_
+          R Forearm/C18_ R Hand/C18_Bone_Hand_R1/C18_Bone_Hand_R2
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ Neck/C18_ R Clavicle/C18_ R UpperArm/C18_
+          R Forearm/C18_ R Hand/C18_Bone_Hand_R1/C18_Bone_Hand_R2/C18_Bone_Hand_R3
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ Neck/C18_ R Clavicle/C18_ R UpperArm/C18_
+          R Forearm/C18_ R Hand/C18_Bone_Hand_R4
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ Neck/C18_ R Clavicle/C18_ R UpperArm/C18_
+          R Forearm/C18_ R Hand/C18_Bone_Hand_R4/C18_Bone_Hand_R5
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ Neck/C18_ R Clavicle/C18_ R UpperArm/C18_
+          R Forearm/C18_ R Hand/C18_Bone_Hand_R4/C18_Bone_Hand_R5/C18_Bone_Hand_R6
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ Neck/C18_ R Clavicle/C18_Bone_Sholder_R
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ R Thigh
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ R Thigh/C18_ R Calf
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ R Thigh/C18_ R Calf/C18_ R Foot
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ R Thigh/C18_ R Calf/C18_ R Foot/C18_
+          R Toe0
+        weight: 1
+      - path: Particle View 001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Run
+      takeName: Take 001
+      firstFrame: 50
+      lastFrame: 66
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: C18
+        weight: 1
+      - path: C18_
+        weight: 1
+      - path: C18_/C18_ Pelvis
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ L Thigh
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ L Thigh/C18_ L Calf
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ L Thigh/C18_ L Calf/C18_ L Foot
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ L Thigh/C18_ L Calf/C18_ L Foot/C18_
+          L Toe0
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ Neck
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ Neck/C18_ Head
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ Neck/C18_ L Clavicle
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ Neck/C18_ L Clavicle/C18_ L UpperArm
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ Neck/C18_ L Clavicle/C18_ L UpperArm/C18_
+          L Forearm
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ Neck/C18_ L Clavicle/C18_ L UpperArm/C18_
+          L Forearm/C18_ L Hand
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ Neck/C18_ L Clavicle/C18_ L UpperArm/C18_
+          L Forearm/C18_ L Hand/C18_Bone_Hand_L1
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ Neck/C18_ L Clavicle/C18_ L UpperArm/C18_
+          L Forearm/C18_ L Hand/C18_Bone_Hand_L1/C18_Bone_Hand_L2
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ Neck/C18_ L Clavicle/C18_ L UpperArm/C18_
+          L Forearm/C18_ L Hand/C18_Bone_Hand_L1/C18_Bone_Hand_L2/C18_Bone_Hand_L3
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ Neck/C18_ L Clavicle/C18_ L UpperArm/C18_
+          L Forearm/C18_ L Hand/C18_Bone_Hand_L4
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ Neck/C18_ L Clavicle/C18_ L UpperArm/C18_
+          L Forearm/C18_ L Hand/C18_Bone_Hand_L4/C18_Bone_Hand_L5
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ Neck/C18_ L Clavicle/C18_ L UpperArm/C18_
+          L Forearm/C18_ L Hand/C18_Bone_Hand_L4/C18_Bone_Hand_L5/C18_Bone_Hand_L6
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ Neck/C18_ L Clavicle/C18_Bone_Sholder_L
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ Neck/C18_ R Clavicle
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ Neck/C18_ R Clavicle/C18_ R UpperArm
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ Neck/C18_ R Clavicle/C18_ R UpperArm/C18_
+          R Forearm
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ Neck/C18_ R Clavicle/C18_ R UpperArm/C18_
+          R Forearm/C18_ R Hand
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ Neck/C18_ R Clavicle/C18_ R UpperArm/C18_
+          R Forearm/C18_ R Hand/C18_Bone_Hand_R1
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ Neck/C18_ R Clavicle/C18_ R UpperArm/C18_
+          R Forearm/C18_ R Hand/C18_Bone_Hand_R1/C18_Bone_Hand_R2
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ Neck/C18_ R Clavicle/C18_ R UpperArm/C18_
+          R Forearm/C18_ R Hand/C18_Bone_Hand_R1/C18_Bone_Hand_R2/C18_Bone_Hand_R3
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ Neck/C18_ R Clavicle/C18_ R UpperArm/C18_
+          R Forearm/C18_ R Hand/C18_Bone_Hand_R4
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ Neck/C18_ R Clavicle/C18_ R UpperArm/C18_
+          R Forearm/C18_ R Hand/C18_Bone_Hand_R4/C18_Bone_Hand_R5
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ Neck/C18_ R Clavicle/C18_ R UpperArm/C18_
+          R Forearm/C18_ R Hand/C18_Bone_Hand_R4/C18_Bone_Hand_R5/C18_Bone_Hand_R6
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ Neck/C18_ R Clavicle/C18_Bone_Sholder_R
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ R Thigh
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ R Thigh/C18_ R Calf
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ R Thigh/C18_ R Calf/C18_ R Foot
+        weight: 1
+      - path: C18_/C18_ Pelvis/C18_ Spine/C18_ R Thigh/C18_ R Calf/C18_ R Foot/C18_
+          R Toe0
+        weight: 1
+      - path: Particle View 001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .100000001
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,599 @@
+fileFormatVersion: 2
+guid: 5d53bd1fa288e304d8018356a50883d3
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: C15_Bone_Flag2
+    100002: C15_Bone_Flag
+    100004: C16_ L Finger11
+    100006: C16_ L Finger1
+    100008: //RootNode
+    100010: C16_ Head
+    100012: C16_ L Finger01
+    100014: C16_ L Finger0
+    100016: C16_ L Hand
+    100018: C16_ L Forearm
+    100020: C16_ R Finger11
+    100022: C16_ HeadNub
+    100024: C16_ R Forearm
+    100026: C16_ R UpperArm
+    100028: C16_ R Clavicle
+    100030: C16_ L UpperArm
+    100032: C16_ L Clavicle
+    100034: C16_ Neck
+    100036: C16_ R Toe0Nub
+    100038: C16_ R Toe0
+    100040: C16_ R Foot
+    100042: C16_ R Calf
+    100044: C16_ R Thigh
+    100046: C16_ L Toe0Nub
+    100048: C16_ L Toe0
+    100050: C16_ L Foot
+    100052: C16_ L Calf
+    100054: C16_ L Thigh
+    100056: C16_ Spine
+    100058: C16_ Pelvis
+    100060: C16_ Footsteps
+    100062: C16_
+    100064: C16_Panties
+    100066: C16
+    100068: C16_ R Finger1Nub
+    100070: C16_ R Finger0Nub
+    100072: C15_Bone_FlagPanties4
+    100074: C15_Bone_FlagPanties3
+    100076: C15_Bone_FlagPanties2
+    100078: C15_Bone_FlagPanties
+    100080: C16_ L Finger1Nub
+    100082: C16_ L Finger0Nub
+    100084: C16_ R Finger01
+    100086: C16_ R Finger0
+    100088: C16_ R Hand
+    100090: C16_ R Finger1
+    400000: C15_Bone_Flag2
+    400002: C15_Bone_Flag
+    400004: C16_ L Finger11
+    400006: C16_ L Finger1
+    400008: //RootNode
+    400010: C16_ Head
+    400012: C16_ L Finger01
+    400014: C16_ L Finger0
+    400016: C16_ L Hand
+    400018: C16_ L Forearm
+    400020: C16_ R Finger11
+    400022: C16_ HeadNub
+    400024: C16_ R Forearm
+    400026: C16_ R UpperArm
+    400028: C16_ R Clavicle
+    400030: C16_ L UpperArm
+    400032: C16_ L Clavicle
+    400034: C16_ Neck
+    400036: C16_ R Toe0Nub
+    400038: C16_ R Toe0
+    400040: C16_ R Foot
+    400042: C16_ R Calf
+    400044: C16_ R Thigh
+    400046: C16_ L Toe0Nub
+    400048: C16_ L Toe0
+    400050: C16_ L Foot
+    400052: C16_ L Calf
+    400054: C16_ L Thigh
+    400056: C16_ Spine
+    400058: C16_ Pelvis
+    400060: C16_ Footsteps
+    400062: C16_
+    400064: C16_Panties
+    400066: C16
+    400068: C16_ R Finger1Nub
+    400070: C16_ R Finger0Nub
+    400072: C15_Bone_FlagPanties4
+    400074: C15_Bone_FlagPanties3
+    400076: C15_Bone_FlagPanties2
+    400078: C15_Bone_FlagPanties
+    400080: C16_ L Finger1Nub
+    400082: C16_ L Finger0Nub
+    400084: C16_ R Finger01
+    400086: C16_ R Finger0
+    400088: C16_ R Hand
+    400090: C16_ R Finger1
+    4300000: C16
+    4300002: C16_Panties
+    7400000: Idle
+    7400002: Run
+    7400004: Idle2
+    11100000: //RootNode
+    13700000: C16_Panties
+    13700002: C16
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: C16
+        weight: 1
+      - path: C16_
+        weight: 1
+      - path: C16_/C16_ Footsteps
+        weight: 1
+      - path: C16_/C16_ Pelvis
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ L Thigh
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ L Thigh/C16_ L Calf
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ L Thigh/C16_ L Calf/C16_ L Foot
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ L Thigh/C16_ L Calf/C16_ L Foot/C16_
+          L Toe0
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ L Thigh/C16_ L Calf/C16_ L Foot/C16_
+          L Toe0/C16_ L Toe0Nub
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ Head
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ Head/C16_ HeadNub
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ L Clavicle
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ L Clavicle/C16_ L UpperArm
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ L Clavicle/C16_ L UpperArm/C16_
+          L Forearm
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ L Clavicle/C16_ L UpperArm/C16_
+          L Forearm/C16_ L Hand
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ L Clavicle/C16_ L UpperArm/C16_
+          L Forearm/C16_ L Hand/C15_Bone_Flag
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ L Clavicle/C16_ L UpperArm/C16_
+          L Forearm/C16_ L Hand/C15_Bone_Flag/C15_Bone_Flag2
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ L Clavicle/C16_ L UpperArm/C16_
+          L Forearm/C16_ L Hand/C15_Bone_Flag/C15_Bone_FlagPanties
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ L Clavicle/C16_ L UpperArm/C16_
+          L Forearm/C16_ L Hand/C15_Bone_Flag/C15_Bone_FlagPanties/C15_Bone_FlagPanties2
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ L Clavicle/C16_ L UpperArm/C16_
+          L Forearm/C16_ L Hand/C15_Bone_Flag/C15_Bone_FlagPanties/C15_Bone_FlagPanties2/C15_Bone_FlagPanties3
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ L Clavicle/C16_ L UpperArm/C16_
+          L Forearm/C16_ L Hand/C15_Bone_Flag/C15_Bone_FlagPanties/C15_Bone_FlagPanties2/C15_Bone_FlagPanties3/C15_Bone_FlagPanties4
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ L Clavicle/C16_ L UpperArm/C16_
+          L Forearm/C16_ L Hand/C16_ L Finger0
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ L Clavicle/C16_ L UpperArm/C16_
+          L Forearm/C16_ L Hand/C16_ L Finger0/C16_ L Finger01
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ L Clavicle/C16_ L UpperArm/C16_
+          L Forearm/C16_ L Hand/C16_ L Finger0/C16_ L Finger01/C16_ L Finger0Nub
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ L Clavicle/C16_ L UpperArm/C16_
+          L Forearm/C16_ L Hand/C16_ L Finger1
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ L Clavicle/C16_ L UpperArm/C16_
+          L Forearm/C16_ L Hand/C16_ L Finger1/C16_ L Finger11
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ L Clavicle/C16_ L UpperArm/C16_
+          L Forearm/C16_ L Hand/C16_ L Finger1/C16_ L Finger11/C16_ L Finger1Nub
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ R Clavicle
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ R Clavicle/C16_ R UpperArm
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ R Clavicle/C16_ R UpperArm/C16_
+          R Forearm
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ R Clavicle/C16_ R UpperArm/C16_
+          R Forearm/C16_ R Hand
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ R Clavicle/C16_ R UpperArm/C16_
+          R Forearm/C16_ R Hand/C16_ R Finger0
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ R Clavicle/C16_ R UpperArm/C16_
+          R Forearm/C16_ R Hand/C16_ R Finger0/C16_ R Finger01
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ R Clavicle/C16_ R UpperArm/C16_
+          R Forearm/C16_ R Hand/C16_ R Finger0/C16_ R Finger01/C16_ R Finger0Nub
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ R Clavicle/C16_ R UpperArm/C16_
+          R Forearm/C16_ R Hand/C16_ R Finger1
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ R Clavicle/C16_ R UpperArm/C16_
+          R Forearm/C16_ R Hand/C16_ R Finger1/C16_ R Finger11
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ R Clavicle/C16_ R UpperArm/C16_
+          R Forearm/C16_ R Hand/C16_ R Finger1/C16_ R Finger11/C16_ R Finger1Nub
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ R Thigh
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ R Thigh/C16_ R Calf
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ R Thigh/C16_ R Calf/C16_ R Foot
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ R Thigh/C16_ R Calf/C16_ R Foot/C16_
+          R Toe0
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ R Thigh/C16_ R Calf/C16_ R Foot/C16_
+          R Toe0/C16_ R Toe0Nub
+        weight: 1
+      - path: C16_Panties
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Run
+      takeName: Take 001
+      firstFrame: 70
+      lastFrame: 90
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: C16
+        weight: 1
+      - path: C16_
+        weight: 1
+      - path: C16_/C16_ Footsteps
+        weight: 1
+      - path: C16_/C16_ Pelvis
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ L Thigh
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ L Thigh/C16_ L Calf
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ L Thigh/C16_ L Calf/C16_ L Foot
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ L Thigh/C16_ L Calf/C16_ L Foot/C16_
+          L Toe0
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ L Thigh/C16_ L Calf/C16_ L Foot/C16_
+          L Toe0/C16_ L Toe0Nub
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ Head
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ Head/C16_ HeadNub
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ L Clavicle
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ L Clavicle/C16_ L UpperArm
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ L Clavicle/C16_ L UpperArm/C16_
+          L Forearm
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ L Clavicle/C16_ L UpperArm/C16_
+          L Forearm/C16_ L Hand
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ L Clavicle/C16_ L UpperArm/C16_
+          L Forearm/C16_ L Hand/C15_Bone_Flag
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ L Clavicle/C16_ L UpperArm/C16_
+          L Forearm/C16_ L Hand/C15_Bone_Flag/C15_Bone_Flag2
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ L Clavicle/C16_ L UpperArm/C16_
+          L Forearm/C16_ L Hand/C15_Bone_Flag/C15_Bone_FlagPanties
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ L Clavicle/C16_ L UpperArm/C16_
+          L Forearm/C16_ L Hand/C15_Bone_Flag/C15_Bone_FlagPanties/C15_Bone_FlagPanties2
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ L Clavicle/C16_ L UpperArm/C16_
+          L Forearm/C16_ L Hand/C15_Bone_Flag/C15_Bone_FlagPanties/C15_Bone_FlagPanties2/C15_Bone_FlagPanties3
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ L Clavicle/C16_ L UpperArm/C16_
+          L Forearm/C16_ L Hand/C15_Bone_Flag/C15_Bone_FlagPanties/C15_Bone_FlagPanties2/C15_Bone_FlagPanties3/C15_Bone_FlagPanties4
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ L Clavicle/C16_ L UpperArm/C16_
+          L Forearm/C16_ L Hand/C16_ L Finger0
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ L Clavicle/C16_ L UpperArm/C16_
+          L Forearm/C16_ L Hand/C16_ L Finger0/C16_ L Finger01
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ L Clavicle/C16_ L UpperArm/C16_
+          L Forearm/C16_ L Hand/C16_ L Finger0/C16_ L Finger01/C16_ L Finger0Nub
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ L Clavicle/C16_ L UpperArm/C16_
+          L Forearm/C16_ L Hand/C16_ L Finger1
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ L Clavicle/C16_ L UpperArm/C16_
+          L Forearm/C16_ L Hand/C16_ L Finger1/C16_ L Finger11
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ L Clavicle/C16_ L UpperArm/C16_
+          L Forearm/C16_ L Hand/C16_ L Finger1/C16_ L Finger11/C16_ L Finger1Nub
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ R Clavicle
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ R Clavicle/C16_ R UpperArm
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ R Clavicle/C16_ R UpperArm/C16_
+          R Forearm
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ R Clavicle/C16_ R UpperArm/C16_
+          R Forearm/C16_ R Hand
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ R Clavicle/C16_ R UpperArm/C16_
+          R Forearm/C16_ R Hand/C16_ R Finger0
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ R Clavicle/C16_ R UpperArm/C16_
+          R Forearm/C16_ R Hand/C16_ R Finger0/C16_ R Finger01
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ R Clavicle/C16_ R UpperArm/C16_
+          R Forearm/C16_ R Hand/C16_ R Finger0/C16_ R Finger01/C16_ R Finger0Nub
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ R Clavicle/C16_ R UpperArm/C16_
+          R Forearm/C16_ R Hand/C16_ R Finger1
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ R Clavicle/C16_ R UpperArm/C16_
+          R Forearm/C16_ R Hand/C16_ R Finger1/C16_ R Finger11
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ R Clavicle/C16_ R UpperArm/C16_
+          R Forearm/C16_ R Hand/C16_ R Finger1/C16_ R Finger11/C16_ R Finger1Nub
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ R Thigh
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ R Thigh/C16_ R Calf
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ R Thigh/C16_ R Calf/C16_ R Foot
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ R Thigh/C16_ R Calf/C16_ R Foot/C16_
+          R Toe0
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ R Thigh/C16_ R Calf/C16_ R Foot/C16_
+          R Toe0/C16_ R Toe0Nub
+        weight: 1
+      - path: C16_Panties
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle2
+      takeName: Take 001
+      firstFrame: 100
+      lastFrame: 121
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: C16
+        weight: 1
+      - path: C16_
+        weight: 1
+      - path: C16_/C16_ Footsteps
+        weight: 1
+      - path: C16_/C16_ Pelvis
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ L Thigh
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ L Thigh/C16_ L Calf
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ L Thigh/C16_ L Calf/C16_ L Foot
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ L Thigh/C16_ L Calf/C16_ L Foot/C16_
+          L Toe0
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ L Thigh/C16_ L Calf/C16_ L Foot/C16_
+          L Toe0/C16_ L Toe0Nub
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ Head
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ Head/C16_ HeadNub
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ L Clavicle
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ L Clavicle/C16_ L UpperArm
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ L Clavicle/C16_ L UpperArm/C16_
+          L Forearm
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ L Clavicle/C16_ L UpperArm/C16_
+          L Forearm/C16_ L Hand
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ L Clavicle/C16_ L UpperArm/C16_
+          L Forearm/C16_ L Hand/C15_Bone_Flag
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ L Clavicle/C16_ L UpperArm/C16_
+          L Forearm/C16_ L Hand/C15_Bone_Flag/C15_Bone_Flag2
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ L Clavicle/C16_ L UpperArm/C16_
+          L Forearm/C16_ L Hand/C15_Bone_Flag/C15_Bone_FlagPanties
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ L Clavicle/C16_ L UpperArm/C16_
+          L Forearm/C16_ L Hand/C15_Bone_Flag/C15_Bone_FlagPanties/C15_Bone_FlagPanties2
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ L Clavicle/C16_ L UpperArm/C16_
+          L Forearm/C16_ L Hand/C15_Bone_Flag/C15_Bone_FlagPanties/C15_Bone_FlagPanties2/C15_Bone_FlagPanties3
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ L Clavicle/C16_ L UpperArm/C16_
+          L Forearm/C16_ L Hand/C15_Bone_Flag/C15_Bone_FlagPanties/C15_Bone_FlagPanties2/C15_Bone_FlagPanties3/C15_Bone_FlagPanties4
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ L Clavicle/C16_ L UpperArm/C16_
+          L Forearm/C16_ L Hand/C16_ L Finger0
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ L Clavicle/C16_ L UpperArm/C16_
+          L Forearm/C16_ L Hand/C16_ L Finger0/C16_ L Finger01
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ L Clavicle/C16_ L UpperArm/C16_
+          L Forearm/C16_ L Hand/C16_ L Finger0/C16_ L Finger01/C16_ L Finger0Nub
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ L Clavicle/C16_ L UpperArm/C16_
+          L Forearm/C16_ L Hand/C16_ L Finger1
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ L Clavicle/C16_ L UpperArm/C16_
+          L Forearm/C16_ L Hand/C16_ L Finger1/C16_ L Finger11
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ L Clavicle/C16_ L UpperArm/C16_
+          L Forearm/C16_ L Hand/C16_ L Finger1/C16_ L Finger11/C16_ L Finger1Nub
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ R Clavicle
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ R Clavicle/C16_ R UpperArm
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ R Clavicle/C16_ R UpperArm/C16_
+          R Forearm
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ R Clavicle/C16_ R UpperArm/C16_
+          R Forearm/C16_ R Hand
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ R Clavicle/C16_ R UpperArm/C16_
+          R Forearm/C16_ R Hand/C16_ R Finger0
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ R Clavicle/C16_ R UpperArm/C16_
+          R Forearm/C16_ R Hand/C16_ R Finger0/C16_ R Finger01
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ R Clavicle/C16_ R UpperArm/C16_
+          R Forearm/C16_ R Hand/C16_ R Finger0/C16_ R Finger01/C16_ R Finger0Nub
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ R Clavicle/C16_ R UpperArm/C16_
+          R Forearm/C16_ R Hand/C16_ R Finger1
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ R Clavicle/C16_ R UpperArm/C16_
+          R Forearm/C16_ R Hand/C16_ R Finger1/C16_ R Finger11
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ Neck/C16_ R Clavicle/C16_ R UpperArm/C16_
+          R Forearm/C16_ R Hand/C16_ R Finger1/C16_ R Finger11/C16_ R Finger1Nub
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ R Thigh
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ R Thigh/C16_ R Calf
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ R Thigh/C16_ R Calf/C16_ R Foot
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ R Thigh/C16_ R Calf/C16_ R Foot/C16_
+          R Toe0
+        weight: 1
+      - path: C16_/C16_ Pelvis/C16_ Spine/C16_ R Thigh/C16_ R Calf/C16_ R Foot/C16_
+          R Toe0/C16_ R Toe0Nub
+        weight: 1
+      - path: C16_Panties
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .100000001
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

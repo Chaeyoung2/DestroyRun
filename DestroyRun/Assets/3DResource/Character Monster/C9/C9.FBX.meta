@@ -1,0 +1,263 @@
+fileFormatVersion: 2
+guid: e66a98ff567012349a26f8c108c2f77b
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: C9_ L UpperArm
+    100002: C9_ L Bag2
+    100004: C9_ L Hand
+    100006: C9_ R UpperArm
+    100008: C9_ R Thigh
+    100010: C9_ R Clavicle
+    100012: C9_ Boob
+    100014: C9_ L Bag
+    100016: C9_ L Clavicle
+    100018: C9_ L Forearm
+    100020: C9
+    100022: C9_ Head
+    100024: C9_ Spine
+    100026: C9_ R Forearm
+    100028: C9_ Pelvis
+    100030: C9_ Neck
+    100032: C9_ Boob2
+    100034: C9_ L Thigh
+    100036: C9_
+    100038: //RootNode
+    100040: C9_ R Hand
+    400000: C9_ L UpperArm
+    400002: C9_ L Bag2
+    400004: C9_ L Hand
+    400006: C9_ R UpperArm
+    400008: C9_ R Thigh
+    400010: C9_ R Clavicle
+    400012: C9_ Boob
+    400014: C9_ L Bag
+    400016: C9_ L Clavicle
+    400018: C9_ L Forearm
+    400020: C9
+    400022: C9_ Head
+    400024: C9_ Spine
+    400026: C9_ R Forearm
+    400028: C9_ Pelvis
+    400030: C9_ Neck
+    400032: C9_ Boob2
+    400034: C9_ L Thigh
+    400036: C9_
+    400038: //RootNode
+    400040: C9_ R Hand
+    4300000: C9
+    7400000: Idle
+    7400002: Walk
+    11100000: //RootNode
+    13700000: C9_ Pelvis
+    13700002: C9
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 160
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: C9
+        weight: 1
+      - path: C9_
+        weight: 1
+      - path: C9_/C9_ Pelvis
+        weight: 1
+      - path: C9_/C9_ Pelvis/C9_ Spine
+        weight: 1
+      - path: C9_/C9_ Pelvis/C9_ Spine/C9_ Boob
+        weight: 1
+      - path: C9_/C9_ Pelvis/C9_ Spine/C9_ Boob/C9_ Boob2
+        weight: 1
+      - path: C9_/C9_ Pelvis/C9_ Spine/C9_ L Thigh
+        weight: 1
+      - path: C9_/C9_ Pelvis/C9_ Spine/C9_ Neck
+        weight: 1
+      - path: C9_/C9_ Pelvis/C9_ Spine/C9_ Neck/C9_ Head
+        weight: 1
+      - path: C9_/C9_ Pelvis/C9_ Spine/C9_ Neck/C9_ L Clavicle
+        weight: 1
+      - path: C9_/C9_ Pelvis/C9_ Spine/C9_ Neck/C9_ L Clavicle/C9_ L UpperArm
+        weight: 1
+      - path: C9_/C9_ Pelvis/C9_ Spine/C9_ Neck/C9_ L Clavicle/C9_ L UpperArm/C9_
+          L Bag
+        weight: 1
+      - path: C9_/C9_ Pelvis/C9_ Spine/C9_ Neck/C9_ L Clavicle/C9_ L UpperArm/C9_
+          L Bag/C9_ L Bag2
+        weight: 1
+      - path: C9_/C9_ Pelvis/C9_ Spine/C9_ Neck/C9_ L Clavicle/C9_ L UpperArm/C9_
+          L Forearm
+        weight: 1
+      - path: C9_/C9_ Pelvis/C9_ Spine/C9_ Neck/C9_ L Clavicle/C9_ L UpperArm/C9_
+          L Forearm/C9_ L Hand
+        weight: 1
+      - path: C9_/C9_ Pelvis/C9_ Spine/C9_ Neck/C9_ R Clavicle
+        weight: 1
+      - path: C9_/C9_ Pelvis/C9_ Spine/C9_ Neck/C9_ R Clavicle/C9_ R UpperArm
+        weight: 1
+      - path: C9_/C9_ Pelvis/C9_ Spine/C9_ Neck/C9_ R Clavicle/C9_ R UpperArm/C9_
+          R Forearm
+        weight: 1
+      - path: C9_/C9_ Pelvis/C9_ Spine/C9_ Neck/C9_ R Clavicle/C9_ R UpperArm/C9_
+          R Forearm/C9_ R Hand
+        weight: 1
+      - path: C9_/C9_ Pelvis/C9_ Spine/C9_ R Thigh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 180
+      lastFrame: 210
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: C9
+        weight: 1
+      - path: C9_
+        weight: 1
+      - path: C9_/C9_ Pelvis
+        weight: 1
+      - path: C9_/C9_ Pelvis/C9_ Spine
+        weight: 1
+      - path: C9_/C9_ Pelvis/C9_ Spine/C9_ Boob
+        weight: 1
+      - path: C9_/C9_ Pelvis/C9_ Spine/C9_ Boob/C9_ Boob2
+        weight: 1
+      - path: C9_/C9_ Pelvis/C9_ Spine/C9_ L Thigh
+        weight: 1
+      - path: C9_/C9_ Pelvis/C9_ Spine/C9_ Neck
+        weight: 1
+      - path: C9_/C9_ Pelvis/C9_ Spine/C9_ Neck/C9_ Head
+        weight: 1
+      - path: C9_/C9_ Pelvis/C9_ Spine/C9_ Neck/C9_ L Clavicle
+        weight: 1
+      - path: C9_/C9_ Pelvis/C9_ Spine/C9_ Neck/C9_ L Clavicle/C9_ L UpperArm
+        weight: 1
+      - path: C9_/C9_ Pelvis/C9_ Spine/C9_ Neck/C9_ L Clavicle/C9_ L UpperArm/C9_
+          L Bag
+        weight: 1
+      - path: C9_/C9_ Pelvis/C9_ Spine/C9_ Neck/C9_ L Clavicle/C9_ L UpperArm/C9_
+          L Bag/C9_ L Bag2
+        weight: 1
+      - path: C9_/C9_ Pelvis/C9_ Spine/C9_ Neck/C9_ L Clavicle/C9_ L UpperArm/C9_
+          L Forearm
+        weight: 1
+      - path: C9_/C9_ Pelvis/C9_ Spine/C9_ Neck/C9_ L Clavicle/C9_ L UpperArm/C9_
+          L Forearm/C9_ L Hand
+        weight: 1
+      - path: C9_/C9_ Pelvis/C9_ Spine/C9_ Neck/C9_ R Clavicle
+        weight: 1
+      - path: C9_/C9_ Pelvis/C9_ Spine/C9_ Neck/C9_ R Clavicle/C9_ R UpperArm
+        weight: 1
+      - path: C9_/C9_ Pelvis/C9_ Spine/C9_ Neck/C9_ R Clavicle/C9_ R UpperArm/C9_
+          R Forearm
+        weight: 1
+      - path: C9_/C9_ Pelvis/C9_ Spine/C9_ Neck/C9_ R Clavicle/C9_ R UpperArm/C9_
+          R Forearm/C9_ R Hand
+        weight: 1
+      - path: C9_/C9_ Pelvis/C9_ Spine/C9_ R Thigh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .100000001
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

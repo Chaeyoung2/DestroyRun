@@ -1,0 +1,4 @@
+﻿C13AnimationList
+
+
+Idle 0-90  = ท่าโยกไปโยกมา

@@ -1,0 +1,262 @@
+fileFormatVersion: 2
+guid: 30d5376cc24d4f0468eba6b62ca38d77
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: C6_Bone_LegBackL
+    100002: C6_Bone_LegBackR2
+    100004: //RootNode
+    100006: C6
+    100008: C6_Bone_LegFontL
+    100010: C6_Bone_LegBackL2
+    100012: C6_Bone_EarR2
+    100014: C6_Bone_EarR
+    100016: C6_Root
+    100018: C6_Bone_Tail
+    100020: C6_Bone_LegBackR
+    100022: C6_Bone_LegFontR2
+    100024: C6_Bone_LegFontR
+    100026: C6_Bone_LegFontL2
+    100028: C6_Bone_EarL2
+    100030: C6_Bone_EarL
+    100032: C6_Bone_Nose4
+    100034: C6_Bone_Body
+    100036: C6_Bone_Nose
+    100038: C6_Bone_Head
+    100040: C6_Bone_Nose3
+    100042: C6_Bone_Nose2
+    100044: C6_Bone_Tail2
+    400000: C6_Bone_LegBackL
+    400002: C6_Bone_LegBackR2
+    400004: //RootNode
+    400006: C6
+    400008: C6_Bone_LegFontL
+    400010: C6_Bone_LegBackL2
+    400012: C6_Bone_EarR2
+    400014: C6_Bone_EarR
+    400016: C6_Root
+    400018: C6_Bone_Tail
+    400020: C6_Bone_LegBackR
+    400022: C6_Bone_LegFontR2
+    400024: C6_Bone_LegFontR
+    400026: C6_Bone_LegFontL2
+    400028: C6_Bone_EarL2
+    400030: C6_Bone_EarL
+    400032: C6_Bone_Nose4
+    400034: C6_Bone_Body
+    400036: C6_Bone_Nose
+    400038: C6_Bone_Head
+    400040: C6_Bone_Nose3
+    400042: C6_Bone_Nose2
+    400044: C6_Bone_Tail2
+    4300000: C6
+    7400000: Idle
+    7400002: Walk
+    11100000: //RootNode
+    13700000: C6
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: C6
+        weight: 1
+      - path: C6_Root
+        weight: 1
+      - path: C6_Root/C6_Bone_Body
+        weight: 1
+      - path: C6_Root/C6_Bone_Body/C6_Bone_Head
+        weight: 1
+      - path: C6_Root/C6_Bone_Body/C6_Bone_Head/C6_Bone_EarL
+        weight: 1
+      - path: C6_Root/C6_Bone_Body/C6_Bone_Head/C6_Bone_EarL/C6_Bone_EarL2
+        weight: 1
+      - path: C6_Root/C6_Bone_Body/C6_Bone_Head/C6_Bone_EarR
+        weight: 1
+      - path: C6_Root/C6_Bone_Body/C6_Bone_Head/C6_Bone_EarR/C6_Bone_EarR2
+        weight: 1
+      - path: C6_Root/C6_Bone_Body/C6_Bone_Head/C6_Bone_Nose
+        weight: 1
+      - path: C6_Root/C6_Bone_Body/C6_Bone_Head/C6_Bone_Nose/C6_Bone_Nose2
+        weight: 1
+      - path: C6_Root/C6_Bone_Body/C6_Bone_Head/C6_Bone_Nose/C6_Bone_Nose2/C6_Bone_Nose3
+        weight: 1
+      - path: C6_Root/C6_Bone_Body/C6_Bone_Head/C6_Bone_Nose/C6_Bone_Nose2/C6_Bone_Nose3/C6_Bone_Nose4
+        weight: 1
+      - path: C6_Root/C6_Bone_Body/C6_Bone_LegFontL
+        weight: 1
+      - path: C6_Root/C6_Bone_Body/C6_Bone_LegFontL/C6_Bone_LegFontL2
+        weight: 1
+      - path: C6_Root/C6_Bone_Body/C6_Bone_LegFontR
+        weight: 1
+      - path: C6_Root/C6_Bone_Body/C6_Bone_LegFontR/C6_Bone_LegFontR2
+        weight: 1
+      - path: C6_Root/C6_Bone_LegBackL
+        weight: 1
+      - path: C6_Root/C6_Bone_LegBackL/C6_Bone_LegBackL2
+        weight: 1
+      - path: C6_Root/C6_Bone_LegBackR
+        weight: 1
+      - path: C6_Root/C6_Bone_LegBackR/C6_Bone_LegBackR2
+        weight: 1
+      - path: C6_Root/C6_Bone_Tail
+        weight: 1
+      - path: C6_Root/C6_Bone_Tail/C6_Bone_Tail2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 60
+      lastFrame: 100
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: C6
+        weight: 1
+      - path: C6_Root
+        weight: 1
+      - path: C6_Root/C6_Bone_Body
+        weight: 1
+      - path: C6_Root/C6_Bone_Body/C6_Bone_Head
+        weight: 1
+      - path: C6_Root/C6_Bone_Body/C6_Bone_Head/C6_Bone_EarL
+        weight: 1
+      - path: C6_Root/C6_Bone_Body/C6_Bone_Head/C6_Bone_EarL/C6_Bone_EarL2
+        weight: 1
+      - path: C6_Root/C6_Bone_Body/C6_Bone_Head/C6_Bone_EarR
+        weight: 1
+      - path: C6_Root/C6_Bone_Body/C6_Bone_Head/C6_Bone_EarR/C6_Bone_EarR2
+        weight: 1
+      - path: C6_Root/C6_Bone_Body/C6_Bone_Head/C6_Bone_Nose
+        weight: 1
+      - path: C6_Root/C6_Bone_Body/C6_Bone_Head/C6_Bone_Nose/C6_Bone_Nose2
+        weight: 1
+      - path: C6_Root/C6_Bone_Body/C6_Bone_Head/C6_Bone_Nose/C6_Bone_Nose2/C6_Bone_Nose3
+        weight: 1
+      - path: C6_Root/C6_Bone_Body/C6_Bone_Head/C6_Bone_Nose/C6_Bone_Nose2/C6_Bone_Nose3/C6_Bone_Nose4
+        weight: 1
+      - path: C6_Root/C6_Bone_Body/C6_Bone_LegFontL
+        weight: 1
+      - path: C6_Root/C6_Bone_Body/C6_Bone_LegFontL/C6_Bone_LegFontL2
+        weight: 1
+      - path: C6_Root/C6_Bone_Body/C6_Bone_LegFontR
+        weight: 1
+      - path: C6_Root/C6_Bone_Body/C6_Bone_LegFontR/C6_Bone_LegFontR2
+        weight: 1
+      - path: C6_Root/C6_Bone_LegBackL
+        weight: 1
+      - path: C6_Root/C6_Bone_LegBackL/C6_Bone_LegBackL2
+        weight: 1
+      - path: C6_Root/C6_Bone_LegBackR
+        weight: 1
+      - path: C6_Root/C6_Bone_LegBackR/C6_Bone_LegBackR2
+        weight: 1
+      - path: C6_Root/C6_Bone_Tail
+        weight: 1
+      - path: C6_Root/C6_Bone_Tail/C6_Bone_Tail2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .100000001
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
