@@ -10,7 +10,6 @@ public class Enemy : LivingObject
 
     public ParticleSystem hitEffect; // 피격시 재생할 파티클 효과
 
-    private Animator enemyAnimator; // 애니메이터 컴포넌트
     private Renderer enemyRenderer; // 렌더러 컴포넌트
 
     public float damage = 20f; // 공격력
@@ -37,11 +36,10 @@ public class Enemy : LivingObject
     private void Awake()
     {
         // 게임 오브젝트로부터 사용할 컴포넌트들을 가져오기
-        enemyAnimator = GetComponent<Animator>();
 
         // 렌더러 컴포넌트는 자식 게임 오브젝트에게 있으므로
         // GetComponentInChildren() 메서드를 사용
-        enemyRenderer = GetComponentInChildren<Renderer>();
+       //enemyRenderer = GetComponentInChildren<Renderer>();
     }
 
     // 적 AI의 초기 스펙을 결정하는 셋업 메서드
@@ -53,7 +51,7 @@ public class Enemy : LivingObject
         // 공격력 설정
         damage = newDamage;
         // 렌더러가 사용중인 머테리얼의 컬러를 변경, 외형 색이 변함
-        enemyRenderer.material.color = skinColor;
+        //enemyRenderer.material.color = skinColor;
     }
 
     private void Start()
@@ -62,13 +60,22 @@ public class Enemy : LivingObject
 
     private void Update()
     {
-        // 추적 대상의 존재 여부에 따라 다른 애니메이션을 재생
-        enemyAnimator.SetBool("HasTarget", hasTarget);
     }
 
     // 데미지를 입었을때 실행할 처리
     public override void OnDamage(float damage, Vector3 hitPoint, Vector3 hitNormal)
     {
+        // 아직 사망하지 않은 경우에만 피격 효과 재생
+        if (!dead)
+        {
+            // 공격 받은 지점과 방향으로 파티클 효과를 재생
+            hitEffect.transform.position = hitPoint;
+            hitEffect.transform.rotation = Quaternion.LookRotation(hitNormal);
+            hitEffect.Play();
+        }
+
+        // LivingEntity의 OnDamage()를 실행하여 데미지 적용
+        base.OnDamage(damage, hitPoint, hitNormal);
     }
 
     // 사망 처리
@@ -84,5 +91,4 @@ public class Enemy : LivingObject
             enemyColliders[i].enabled = false;
         }
     }
-
 }

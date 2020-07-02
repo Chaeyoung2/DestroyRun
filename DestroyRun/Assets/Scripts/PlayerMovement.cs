@@ -42,7 +42,7 @@ public class PlayerMovement : MonoBehaviour
     // 입력값에 따라 캐릭터를 앞뒤로 움직임 -> 계속 움직이는 걸로 수정
     private void Move()
     {
-        print(playerInput.move);
+       // print(playerInput.move);
         // 상대적으로 이동할 거리 계산
         Vector3 moveDistance =
             playerInput.move * transform.forward * moveSpeed * Time.deltaTime;
