@@ -26,21 +26,21 @@ public class PlayerInput : MonoBehaviour
         //if (GameManager.instance != null
         //    && GameManager.instance.isGameover)
         //{
-            move = 0;
-            rotate = 0;
-            fire = false;
-            reload = false;
-            return;
+            //move = 0;
+            //rotate = 0;
+            //fire = false;
+            //reload = false;
+            //return;
         // }
 
         // move에 관한 입력 감지
         move = Input.GetAxis(moveAxisName);
         // rotate에 관한 입력 감지
         rotate = Input.GetAxis(rotateAxisName);
-        // fire에 관한 입력 감지
-        fire = Input.GetButton(fireButtonName);
-        // reload에 관한 입력 감지
-        reload = Input.GetButtonDown(reloadButtonName);
+        //// fire에 관한 입력 감지
+        //fire = Input.GetButton(fireButtonName);
+        //// reload에 관한 입력 감지
+        //reload = Input.GetButtonDown(reloadButtonName);
     }
 
 }
