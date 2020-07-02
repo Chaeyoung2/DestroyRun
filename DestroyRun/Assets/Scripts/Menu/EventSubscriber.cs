@@ -5,15 +5,22 @@ using UnityEngine.UI;
 
 public class EventSubscriber : MonoBehaviour
 {
-    [SerializeField] private Button button;
+    [SerializeField] private Button startButton;
+    [SerializeField] private Button loadButton;
+    [SerializeField] private Button endButton;
+    [SerializeField] private Toggle particleToggle;
     // Start is called before the first frame update
     void Start()
     {
-        button = GetComponent<Button>();
-        // 클릭되었을 때 유니티 메서드 호출
-        button.onClick.AddListener( ()=> { // lambda
-            // loadScene();
-        }); 
+        startButton = GetComponent<Button>();
+        loadButton = GetComponent<Button>();
+        endButton = GetComponent<Button>();
+        particleToggle = GetComponent<Toggle>();
+
+        // 스타트 버튼이 클릭되었을 때 유니티 메서드 호출
+        startButton.onClick.AddListener(OnClickedStart);
+
+        particleToggle.onValueChanged.AddListener(OnCheckedPToggle);
     }
 
     // Update is called once per frame
@@ -21,4 +28,23 @@ public class EventSubscriber : MonoBehaviour
     {
         
     }
+
+    //
+    private void OnClickedStart()
+    {
+        // loadScene();
+    }
+
+    private void OnCheckedPToggle(bool value)
+    {
+        if (value)
+        {
+
+        }
+        else
+        {
+
+        }
+    }
+
 }
