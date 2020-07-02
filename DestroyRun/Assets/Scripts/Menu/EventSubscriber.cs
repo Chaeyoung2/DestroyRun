@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class EventSubscriber : MonoBehaviour
@@ -9,6 +10,7 @@ public class EventSubscriber : MonoBehaviour
     [SerializeField] private Button loadButton;
     [SerializeField] private Button endButton;
     [SerializeField] private Toggle particleToggle;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,8 +21,10 @@ public class EventSubscriber : MonoBehaviour
 
         // 스타트 버튼이 클릭되었을 때 유니티 메서드 호출
         startButton.onClick.AddListener(OnClickedStart);
+        endButton.onClick.AddListener(OnClickedExit);
 
         particleToggle.onValueChanged.AddListener(OnCheckedPToggle);
+
     }
 
     // Update is called once per frame
@@ -33,6 +37,11 @@ public class EventSubscriber : MonoBehaviour
     private void OnClickedStart()
     {
         // loadScene();
+        SceneManager.LoadScene("Main");
+    }
+    private void OnClickedExit()
+    {
+        Application.Quit();
     }
 
     private void OnCheckedPToggle(bool value)

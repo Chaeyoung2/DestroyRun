@@ -8,7 +8,6 @@ public class PlayerMovement : MonoBehaviour
    [SerializeField] private  float rotateSpeed; // 좌우 회전 속도
    [SerializeField] private float jumpPower;
 
-    [SerializeField] private Animator playerAnimator; // 플레이어 캐릭터의 애니메이터
     [SerializeField] private PlayerInput playerInput; // 플레이어 입력을 알려주는 컴포넌트
     [SerializeField] private Rigidbody playerRigidbody; // 플레이어 캐릭터의 리지드바디
 
@@ -42,8 +41,8 @@ public class PlayerMovement : MonoBehaviour
     // 입력값에 따라 캐릭터를 앞뒤로 움직임 -> 계속 움직이는 걸로 수정
     private void Move()
     {
-       // print(playerInput.move);
-        // 상대적으로 이동할 거리 계산
+        // print(playerInput.move);
+        //상대적으로 이동할 거리 계산
         Vector3 moveDistance =
             playerInput.move * transform.forward * moveSpeed * Time.deltaTime;
         // 리지드바디를 통해 게임 오브젝트 위치 변경
@@ -56,7 +55,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Jump()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             playerRigidbody.AddForce(Vector3.up * jumpPower, ForceMode.Impulse);
         }
