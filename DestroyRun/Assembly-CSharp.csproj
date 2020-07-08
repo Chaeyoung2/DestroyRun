@@ -74,6 +74,8 @@
     <Compile Include="Assets\Scripts\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\PlayerInput.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\RoadSpawner.cs" />
+    <Compile Include="Assets\Scripts\SpawnManager.cs" />
     <Compile Include="Assets\Scripts\TestCameraController.cs" />
     <Compile Include="Assets\Scripts\TestCharacterController.cs" />
     <Compile Include="Assets\Scripts\UIManager.cs" />
