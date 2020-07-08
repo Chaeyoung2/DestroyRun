@@ -690,11 +690,17 @@
     <Reference Include="com.unity.multiplayer-hlapi.Editor">
       <HintPath>C:/Users/lol57/Documents/GitHub/DestroyRun/DestroyRun/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.ProGrids">
+      <HintPath>C:/Users/lol57/Documents/GitHub/DestroyRun/DestroyRun/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>C:/Users/lol57/Documents/GitHub/DestroyRun/DestroyRun/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Advertisements">
       <HintPath>C:/Users/lol57/Documents/GitHub/DestroyRun/DestroyRun/Library/ScriptAssemblies/UnityEngine.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProGrids.Editor">
+      <HintPath>C:/Users/lol57/Documents/GitHub/DestroyRun/DestroyRun/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/lol57/Documents/GitHub/DestroyRun/DestroyRun/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -708,6 +714,9 @@
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>C:/Users/lol57/Documents/GitHub/DestroyRun/DestroyRun/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Postprocessing.Editor">
+      <HintPath>C:/Users/lol57/Documents/GitHub/DestroyRun/DestroyRun/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="com.unity.multiplayer-weaver.Editor">
       <HintPath>C:/Users/lol57/Documents/GitHub/DestroyRun/DestroyRun/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
     </Reference>
@@ -717,8 +726,14 @@
     <Reference Include="Unity.Rider.Editor">
       <HintPath>C:/Users/lol57/Documents/GitHub/DestroyRun/DestroyRun/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>C:/Users/lol57/Documents/GitHub/DestroyRun/DestroyRun/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
       <HintPath>C:/Users/lol57/Documents/GitHub/DestroyRun/DestroyRun/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+      <HintPath>C:/Users/lol57/Documents/GitHub/DestroyRun/DestroyRun/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
       <HintPath>C:/Users/lol57/Documents/GitHub/DestroyRun/DestroyRun/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
@@ -728,6 +743,9 @@
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>C:/Users/lol57/Documents/GitHub/DestroyRun/DestroyRun/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+      <HintPath>C:/Users/lol57/Documents/GitHub/DestroyRun/DestroyRun/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>C:/Users/lol57/Documents/GitHub/DestroyRun/DestroyRun/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
@@ -743,24 +761,6 @@
     </Reference>
     <Reference Include="com.unity.multiplayer-hlapi.Runtime">
       <HintPath>C:/Users/lol57/Documents/GitHub/DestroyRun/DestroyRun/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Mathematics">
-      <HintPath>C:/Users/lol57/Documents/GitHub/DestroyRun/DestroyRun/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Mathematics.Editor">
-      <HintPath>C:/Users/lol57/Documents/GitHub/DestroyRun/DestroyRun/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>C:/Users/lol57/Documents/GitHub/DestroyRun/DestroyRun/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>C:/Users/lol57/Documents/GitHub/DestroyRun/DestroyRun/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProGrids">
-      <HintPath>C:/Users/lol57/Documents/GitHub/DestroyRun/DestroyRun/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProGrids.Editor">
-      <HintPath>C:/Users/lol57/Documents/GitHub/DestroyRun/DestroyRun/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>

@@ -4,15 +4,19 @@ using UnityEngine;
 
 public class TestCameraController : MonoBehaviour
 {
+    private Transform player;
+    [SerializeField] private float yOffset = 10f;
+    [SerializeField] private float zOffset = -20f;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        player = GameObject.Find("Player").transform;
     }
 
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
-        
+        transform.position = new Vector3(player.position.x, player.position.y + yOffset, player.position.z + zOffset);
     }
 }

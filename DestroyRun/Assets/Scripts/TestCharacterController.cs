@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TestCharacterController : MonoBehaviour
 {
-    public float movementSpeed = 10f;
+    [SerializeField] private float movementSpeed = 10f;
 
     // Start is called before the first frame update
     void Start()
@@ -15,8 +15,8 @@ public class TestCharacterController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float hMovement = Input.GetAxis("Horizontal") * movementSpeed;
-        float vMovement = Input.GetAxis("Vertical") * movementSpeed / 2;
+        float hMovement = Input.GetAxis("Horizontal") * movementSpeed / 2;
+        float vMovement = Input.GetAxis("Vertical") * movementSpeed;
 
         transform.Translate(new Vector3(hMovement, 0, vMovement) * Time.deltaTime);
     }
