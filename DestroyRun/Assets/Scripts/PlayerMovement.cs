@@ -4,13 +4,16 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-   [SerializeField] private  float moveSpeed; // 앞뒤 움직임의 속도
-   [SerializeField] private  float rotateSpeed; // 좌우 회전 속도
+   [SerializeField] private float moveSpeed; // 앞뒤 움직임의 속도
    [SerializeField] private float jumpPower;
 
     [SerializeField] private PlayerInput playerInput; // 플레이어 입력을 알려주는 컴포넌트
     [SerializeField] private Rigidbody playerRigidbody; // 플레이어 캐릭터의 리지드바디
+    public SpawnManager spawnManager;
 
+    public bool jump = false;
+    public bool run = false;
+    public bool dash = false;
 
     // Start is called before the first frame update
     void Start()
@@ -29,24 +32,35 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        // 회전 실행
-        Rotate();
         // 움직임 실행
         Move();
         // 점프
         Jump();
+        // 대시
+        Dash();
 
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        spawnManager.SpawnerTriggerEntered();
     }
 
     // 입력값에 따라 캐릭터를 앞뒤로 움직임 -> 계속 움직이는 걸로 수정
     private void Move()
     {
-        // print(playerInput.move);
+        // 대시
+        if (dash)
+        {
+            moveSpeed *= 2f;
+        }
+
         //상대적으로 이동할 거리 계산
         Vector3 moveDistance =
             playerInput.move * transform.forward * moveSpeed * Time.deltaTime;
         // 리지드바디를 통해 게임 오브젝트 위치 변경
         playerRigidbody.MovePosition(playerRigidbody.position + moveDistance);
+        
 
         // -> 수정 -> 다시 폐기
         //playerRigidbody.velocity = Vector3.forward * moveSpeed * Time.deltaTime;
@@ -55,16 +69,20 @@ public class PlayerMovement : MonoBehaviour
 
     void Jump()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse0))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             playerRigidbody.AddForce(Vector3.up * jumpPower, ForceMode.Impulse);
+            jump = true;
         }
     }
 
-    // 입력값에 따라 캐릭터를 좌우로 회전
-    private void Rotate()
+    void Dash()
     {
-        float turn = playerInput.rotate * rotateSpeed * Time.deltaTime;
-        playerRigidbody.rotation = playerRigidbody.rotation * Quaternion.Euler(0, turn, 0f);
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            playerRigidbody.AddForce(Vector3.up * jumpPower, ForceMode.Impulse);
+            dash = true;
+        }
     }
+
 }
